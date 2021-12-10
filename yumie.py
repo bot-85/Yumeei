@@ -4,7 +4,6 @@ import requests,sys,random,re,base64,json
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
-from menu_instagram import menu_instagram
 from urllib2 import urlopen
 from cek_opsi import cek_opsi
 reload(sys)
@@ -287,22 +286,20 @@ def menu():
 def daftar_menu():
 	pilih = raw_input("\n\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
 	if pilih == "":
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
+		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input
 	elif pilih == "1":
-		menu_instagram()
-	elif pilih == "2":
 		publik()
-	elif pilih == "3":
+	elif pilih == "2":
 		like_post()
-	elif pilih == "4":
+	elif pilih == "3":
 		follower()
-	elif pilih == "5":
+	elif pilih == "4":
 		teman()
-	elif pilih == "6":
+	elif pilih == "5":
 		metode()
-	elif pilih == "7":
+	elif pilih == "6":
 		cek_opsi()
-	elif pilih == "8":
+	elif pilih == "7":
 		print("\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;92m Ok")
 		print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Lihat Hasil\x1b[1;93m Cp")
 		print("\x1b[1;96m[\x1b[1;97m0\x1b[1;96m]\x1b[1;97m Kembali")
@@ -327,7 +324,7 @@ def daftar_menu():
 			menu()
 		else:
 			exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
-	elif pilih == "9":
+	elif pilih == "8":
 		print("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Anda Akan Diarahkan Ke Whatsapp")
 		time.sleep(3)
 		os.system("xdg-open https://wa.me/6285727173376?text=Hallo%20Bang%20Rozhak")
