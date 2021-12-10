@@ -286,7 +286,7 @@ def menu():
 def daftar_menu():
 	pilih = raw_input("\n\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m Choose :\x1b[1;96m ")
 	if pilih == "":
-		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input
+		exit("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m]\x1b[1;91m Wrong Input")
 	elif pilih == "1":
 		publik()
 	elif pilih == "2":
