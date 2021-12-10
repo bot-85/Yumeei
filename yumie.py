@@ -32,6 +32,7 @@ def logo():
 \x1b[1;94m  |     \  /_____/ /    Y    \    |   \|     \   
 \x1b[1;95m  \___  /          \____|__  /______  /\___  /   
 \x1b[1;96m      \/                   \/       \/     \/      """%(N))
+"")
 url=('http://ipinfo.io/json')
 response=urlopen(url)
 data=json.load(response)
