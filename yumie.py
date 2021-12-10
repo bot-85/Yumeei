@@ -22,17 +22,16 @@ Dan Jika Ingin Di Ganti Izin Dulu :v
 
 
 #####################################
-### BAGIAN LOGO ###
-def logo():
-	os.system("clear")
-	print("""%s
-\x1b[1;91m ___________          _____ _____________________
-\x1b[1;92m \_   _____/         /     \\______   \_   _____/
-\x1b[1;93m  |    __)  ______  /  \ /  \|    |  _/|    __)  
-\x1b[1;94m  |     \  /_____/ /    Y    \    |   \|     \   
-\x1b[1;95m  \___  /          \____|__  /______  /\___  /   
-\x1b[1;96m      \/                   \/       \/     \/      
-"")
+logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
+\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
+\x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
+\x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_|
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m AUTHOR : BINTANG-XD
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m FACEBOOK : Bintang Tzy
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m GIT HUB  : https://github.com
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+""")
 url=('http://ipinfo.io/json')
 response=urlopen(url)
 data=json.load(response)
@@ -77,7 +76,7 @@ def bot_follow():
 	try:
 		token=open('___rozhak___','r').read()
 	except IOError:
-		print ("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mCookie Invalid")
+		print ("\x1b[1;93m[\x1b[1;91m•\x1b[1;93m] \x1b[1;91mToken invalid")
 		os.system('rm -rf ___rozhak___')
 		time.sleep(2)
 		login()
@@ -269,9 +268,9 @@ def menu():
 		exit("\x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m Koneksi Error")
 	os.system("clear")
 	print(logo)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Name : "+nama)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Ip : "+ip)
-	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m Org : "+org)
+	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m NICK NAME    : "+nama)
+	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m IP ADDRESS   : "+ip)
+	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m ASAL ORANG   : "+org)
 
 	print(\n"\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Dump ID Publik (dump fast)")
 	print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Dump ID Like Post (dump fast)")
