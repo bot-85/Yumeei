@@ -273,7 +273,7 @@ def menu():
 	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m IP ADDRESS   : "+ip)
 	print("\x1b[1;92m[\x1b[1;97m*\x1b[1;92m]\x1b[1;97m ASAL ORANG   : "+org)
 
-	print(\n"\x1b[1;96m[\x1b[1;97m1\x1b[1;96m]\x1b[1;97m Dump ID Publik (dump fast)")
+	print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Dump ID Publik (dump fast)")
 	print("\x1b[1;96m[\x1b[1;97m2\x1b[1;96m]\x1b[1;97m Dump ID Like Post (dump fast)")
 	print("\x1b[1;96m[\x1b[1;97m3\x1b[1;96m]\x1b[1;97m Dump ID Follower (dump fast)")
 	print("\x1b[1;96m[\x1b[1;97m4\x1b[1;96m]\x1b[1;97m Dump ID Teman (dump fast)")
