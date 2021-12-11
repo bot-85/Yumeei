@@ -166,10 +166,10 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m]. \x1b[1;93mcrack dari \x1b[1;92mffollowers")
     print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m]. \x1b[1;93mcrack dari \x1b[1;92mpostingan/profil")
     print(" \x1b[1;92m[\x1b[1;93m05\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92m fb new/baru")
-    print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92mfb old/lama")
-    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92memail fb")
+    print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92m fb old/lama")
+    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m]. \x1b[1;93mSettings User Agent \x1b[1;92mU/\x1b[1;94m\x1b[1;93mA")
     print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m]. \x1b[1;93minformasi tambahan")
-    print(" \x1b[1;93m[%s\x1b[1;91m00%s\x1b[1;93m]. \x1b[1;91mlogout\x1b[1;97m (hapus token)"%(M,N))
+    print(" \x1b[1;93m[%s\x1b[1;91m00%s\x1b[1;93m]. \x1b[1;91mlogout"%(M,N))
     asw = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m]\x1b[1;93m pilih \x1b[1;92mmenu\x1b[1;97m ═\x1b[1;97m ")
     if asw == "":
     	menu()
