@@ -315,21 +315,14 @@ def fbbaru():
 		exit(" \x1b[1;92m[\x1b[1;91m!\x1b[1;92m] \x1b[1;93makun tidak t\x1b[1;92mersedia atau error")
 	print("\n \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mtotal id  \x1b[1;97m:\x1b[1;92m %s%s%s"%(M,len(id),N))
 	
-### DUMP ID RANDOM OLD ###
-def fbtua():
-	x = 111111111
-	xx = 999999999
-	idx = "5000" 
-	limit = int(input(" \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mmasukan jumlah id\x1b[1;92m (cth 5000): "))
-	try:
-		for n in range(limit):
-			_ = random.randint(x,xx)
-			__ = idx
-			id.append(__+"<=>"+str(_))
-	except KeyError:
-		exit(" \x1b[1;92m[\x1b[1;91m!\x1b[1;92m] \x1b[1;93makun tidak t\x1b[1;92mersedia atau error")
-	print("\n \x1b[1;92m[\x1b[1;93m\x1b[1;92m+] \x1b[1;93mtotal id  \x1b[1;97m:\x1b[1;92m %s%s%s"%(M,len(id),N))
-	
+### LAPOR BUG SCRIPT ###
+def laporbug():
+    asulo = raw_input('\n \x1b[1;92m[?] masukan laporan bug script : \x1b[1;92m').replace(' ', '%20')
+    if asulo == '':
+        menu()
+    os.system('xdg-open https://wa.me/6281272106675?text=' + asulo)
+    raw_input('\n \x1b[1;92m[*] \x1b[1;93mkembali ')
+    menu()
 ### DUMP ID RANDOM EMAIL ###
 def emailfb():
 	x = 111
