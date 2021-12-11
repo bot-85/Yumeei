@@ -153,8 +153,6 @@ def menu():
 
     logo()
     time.sleep (0.01)
-    jalan(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] Selamat datang di tools kami
-    jalan(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] dan anda akan merasakan kenikmatan
     print(" %s\x1b[1;92m\x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;97m: \x1b[1;92mBINTANG-XD X HARIS GANZ"%(N))
     print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mGithub    \x1b[1;97m: \x1b[1;92mhttps://github.com")
     print(" \x1b[1;93m[\x1b[1;92m◉\x1b[1;93m]\x1b[1;92m ═════════════════════════════════════════════")
