@@ -159,7 +159,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mBergabung \x1b[1;97m:\x1b[1;92m %s"%(tgl))
     print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mStatus    \x1b[1;97m:\x1b[1;92m %spremium%s"%(H,N))
     print(" \x1b[1;92m\x1b[1;93m[\x1b[1;92m◉\x1b[1;93m]\x1b[1;92m ═════════════════════════════════════════════")
-    print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mIP       \x1b[1;97m :\x1b[1;92m %s"%(IP))
+    print(" \x1b[1;92m[\x1b[1;93m*\x1b[1;92m] \x1b[1;93mIP       \x1b[1;97m :\x1b[1;92m %s"%(IP))
     print("              \n \x1b[1;93m[ \x1b[1;92mselamat \x1b[1;93mdatang \x1b[1;92mBosku \x1b[1;93m%s%s%s ]\n"%(K,nama,N))
     print(" \x1b[1;92m\x1b[1;92m[\x1b[1;93m01\x1b[1;92m]. \x1b[1;93mcrack dari\x1b[1;92m id public/teman mu")
     print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m]. \x1b[1;93mcrack dari \x1b[1;92mid masal/brutal")
