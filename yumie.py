@@ -192,8 +192,7 @@ def menu():
     	fbtua()
         sandimanual()
     elif asw == "7":
-    	emailfb()
-        sandimanual()
+        seting_yntkts()
     elif asw == "8":
     	infotambahan()
     elif asw == "0":
