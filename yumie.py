@@ -79,23 +79,17 @@ def logo():
 	time.sleep (0.1)
 	print
 	print
- 	print ('\033[1;32m                    ______---_____ ')
-  	print ('\033[1;32m         ___-----           __      ----_ ')
-	print ('\033[1;33m ___---             ___------             \ ')
-	print ('\033[1;33m     ---______        ----                 \ ')
-	print ('\033[1;32m                 --__    |             _____) ')
-	print ('\033[1;32m                     -                /     \ ')
-	print ('\033[1;33m          _____-----    ___--         \    /)\ ')
-	print ('\033[1;33m    -----_____      ---____            \__/  / ')
-	print ('\033[1;32m                 --__    \ --    _          /\ ')
-	print ('\033[1;32m                      --__-__     \_____/   \_/\ ')
-	print ('\033[1;33m                            ----|   /          | ')
-	print ('\033[1;36mpericode \033[1;37m : FAHRIKANOHYEE XD     \033[1;31m    |  |___________| ')
-	print ('\033[1;36mnomer wa \033[1;37m : 08184 om itu nomer nya salah \033[1;37m|  | ((_(_)| )_) ')
-	print ('\033[1;36mtemannya\033[1;37m : \33[3;1m\033[1;37mndriitzy = Faiztzy \033[1;33memm.. \33[0;31m\033[1;31m|  \_((_(_)|/(_) ')
-	print ('\033[1;32m◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉\033[1;33m\             ( ')
-	print ('\033[1;33m◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉◉\033[1;32m\_____________)')
-### BAGIAN LOGIN 02###
+ ### BAGIAN LOGO ###
+def logo():
+	os.system("clear")
+	print("""%s
+\x1b[1;91m___________          _____ _____________________
+\x1b[1;92m\_   _____/         /     \\______   \_   _____/
+\x1b[1;93m |    __)  ______  /  \ /  \|    |  _/|    __)  
+\x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
+\x1b[1;95m \___ |           \____|__  /______  /\___  /   
+\x1b[1;96m     \/                   \/       \/     \/      """%(N))   
+### BAGIAN LOGIN ###
 def tokenz():
 	os.system('clear')
 	try:
@@ -104,15 +98,14 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		time.sleep (0.01)
-		print(" %s\x1b[1;92m\x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;97m : \x1b[1;92mMbokey = ndriitzy"%(N))
-		print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mGithub    \x1b[1;97m : \x1b[1;92mhttps://github.com/Mbokey/crack_mbokey")
-		print(" \x1b[1;93m[\x1b[1;92m◉\x1b[1;93m] \x1b[1;92m ═════════════════════════════════════════════")
-		print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mBergabung  \x1b[1;97m:\x1b[1;92m %s"%(tgl))
-		print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mStatus     \x1b[1;97m: \x1b[1;92m%spremium %s"%(H,N))
-		print(" \x1b[1;92m\x1b[1;93m[\x1b[1;92m◉\x1b[1;93m]\x1b[1;92m ═════════════════════════════════════════════")
-		print(" \x1b[1;92m[\x1b[1;93m+\x1b[1;92m]\x1b[1;93m IP         \x1b[1;97m:\x1b[1;92m %s"%(IP))
-		token = raw_input('\n \x1b[1;93m[\x1b[1;92m?\x1b[1;93m] \x1b[1;92mMasukan token>> \x1b[1;97m:\x1b[1;93m ')
+		print(" %s\x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mAuthor     \x1b[1;93m: \x1b[1;93mBINTANG-XD"%(N))
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mGithub     \x1b[1;93m: \x1b[1;93mhttps://github.com/bot-85")
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93m---------------------------------------------")
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mBergabung  \x1b[1;93m: %s"%(tgl))
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mStatus     \x1b[1;93m: %s\x1b[1;92mPremium Sampe termux tutup%s"%(H,N))
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93m---------------------------------------------")
+		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mIP         \x1b[1;93m: %s"%(IP))
+		token = raw_input('\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mmasukan token \x1b[1;93m: \x1b[1;92m')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)
@@ -175,7 +168,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m05\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92m fb new/baru")
     print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92mfb old/lama")
     print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m]. \x1b[1;93mcrack random \x1b[1;92memail fb")
-    print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m]. \x1b[1;93minformasi tambahan/\x1b[1;92mlain  yang tersembunyi")
+    print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m]. \x1b[1;93minformasi tambahan")
     print(" \x1b[1;93m[%s\x1b[1;91m00%s\x1b[1;93m]. \x1b[1;91mlogout\x1b[1;97m (hapus token)"%(M,N))
     asw = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m]\x1b[1;93m pilih \x1b[1;92mmenu\x1b[1;97m ═\x1b[1;97m ")
     if asw == "":
