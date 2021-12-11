@@ -153,8 +153,8 @@ def menu():
 
     logo()
     time.sleep (0.01)
-    print(" %s\x1b[1;92m\x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;97m: \x1b[1;92mMbokey = ndriitzy"%(N))
-    print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mGithub    \x1b[1;97m: \x1b[1;92mhttps://github.com/Mbokey/crack_mbokey")
+    print(" %s\x1b[1;92m\x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;97m: \x1b[1;92mBINTANG-XD X HARIS GANZ"%(N))
+    print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mGithub    \x1b[1;97m: \x1b[1;92mhttps://github.com")
     print(" \x1b[1;93m[\x1b[1;92m◉\x1b[1;93m]\x1b[1;92m ═════════════════════════════════════════════")
     print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mBergabung \x1b[1;97m:\x1b[1;92m %s"%(tgl))
     print(" \x1b[1;92m[\x1b[1;93m◉\x1b[1;92m] \x1b[1;93mStatus    \x1b[1;97m:\x1b[1;92m %spremium%s"%(H,N))
