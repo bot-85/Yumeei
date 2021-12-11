@@ -205,9 +205,9 @@ def menu():
 ### INFORMASI TAMBAHAN ###
 def infotambahan():
 	jalan("\n \x1b[1;93m1\x1b[1;92m \x1b[1;93mcek opsi\x1b[1;92m hasil crack")
-	jalan("   \x1b[1;93m2\x1b[1;92m \x1b[1;93mlihat akun \x1b[1;92mhasil crack")
-	jalan("   \x1b[1;93m3\x1b[1;92m laporkan bug script")
-	jalan("   \x1b[1;93m4\x1b[1;92m \x1b[1;93mkembali \x1b[1;92mke menu")
+	jalan("  \x1b[1;93m2\x1b[1;92m \x1b[1;93mlihat akun \x1b[1;92mhasil crack")
+	jalan("  \x1b[1;93m3\x1b[1;92m laporkan bug script")
+	jalan("  \x1b[1;93m4\x1b[1;92m \x1b[1;93mkembali \x1b[1;92mke menu")
 	fall = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih \x1b[1;97m: ")
 	if fall == "":
 		menu()
